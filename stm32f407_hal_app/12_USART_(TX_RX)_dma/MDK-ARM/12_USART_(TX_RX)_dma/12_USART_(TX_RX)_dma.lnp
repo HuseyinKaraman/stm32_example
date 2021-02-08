@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"12_usart_(tx_rx)_dma\startup_stm32f407xx.o"
+"12_usart_(tx_rx)_dma\main.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_it.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_msp.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_rcc.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_flash_ramfunc.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_rcc_ex.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_dma_ex.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_pwr.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_dma.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_flash_ex.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_tim_ex.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_tim.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_uart.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_cortex.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_adc.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_adc_ex.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_flash.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_pwr_ex.o"
+"12_usart_(tx_rx)_dma\stm32f4xx_hal_gpio.o"
+"12_usart_(tx_rx)_dma\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "12_USART_(TX_RX)_dma\12_USART_(TX_RX)_dma.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "12_USART_(TX_RX)_dma.map" -o 12_USART_(TX_RX)_dma\12_USART_(TX_RX)_dma.axf

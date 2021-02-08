@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"video_enc28j60_with_spi\stm32f4xx_hal_rcc.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_pwr.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_flash_ex.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_flash_ramfunc.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_dma.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_tim_ex.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_spi.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_dma_ex.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_pwr_ex.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_gpio.o"
+"video_enc28j60_with_spi\stm32f4xx_hal.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_tim.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_rcc_ex.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_flash.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_cortex.o"
+"video_enc28j60_with_spi\system_stm32f4xx.o"
+"video_enc28j60_with_spi\stm32f4xx_it.o"
+"video_enc28j60_with_spi\main.o"
+"video_enc28j60_with_spi\stm32f4xx_hal_msp.o"
+"video_enc28j60_with_spi\stm_enc28_j60.o"
+"video_enc28j60_with_spi\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "video_enc28j60_with_spi\video_enc28j60_with_spi.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "video_enc28j60_with_spi.map" -o video_enc28j60_with_spi\video_enc28j60_with_spi.axf

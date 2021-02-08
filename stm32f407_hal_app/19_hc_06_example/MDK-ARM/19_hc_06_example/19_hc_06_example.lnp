@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"19_hc_06_example\stm32f4xx_hal_gpio.o"
+"19_hc_06_example\stm32f4xx_hal.o"
+"19_hc_06_example\stm32f4xx_hal_tim_ex.o"
+"19_hc_06_example\stm32f4xx_hal_pwr.o"
+"19_hc_06_example\stm32f4xx_hal_flash.o"
+"19_hc_06_example\stm32f4xx_hal_rcc.o"
+"19_hc_06_example\stm32f4xx_hal_flash_ex.o"
+"19_hc_06_example\stm32f4xx_hal_dma.o"
+"19_hc_06_example\stm32f4xx_hal_dma_ex.o"
+"19_hc_06_example\stm32f4xx_hal_cortex.o"
+"19_hc_06_example\stm32f4xx_hal_flash_ramfunc.o"
+"19_hc_06_example\stm32f4xx_hal_uart.o"
+"19_hc_06_example\stm32f4xx_hal_pwr_ex.o"
+"19_hc_06_example\stm32f4xx_hal_rcc_ex.o"
+"19_hc_06_example\stm32f4xx_hal_tim.o"
+"19_hc_06_example\startup_stm32f407xx.o"
+"19_hc_06_example\system_stm32f4xx.o"
+"19_hc_06_example\main.o"
+"19_hc_06_example\stm32f4xx_hal_msp.o"
+"19_hc_06_example\stm32f4xx_it.o"
+--library_type=microlib --strict --scatter "19_hc_06_example\19_hc_06_example.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "19_hc_06_example.map" -o 19_hc_06_example\19_hc_06_example.axf

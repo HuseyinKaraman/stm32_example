@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+"9_1tim_4ch_dma\stm32f4xx_it.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_msp.o"
+"9_1tim_4ch_dma\main.o"
+"9_1tim_4ch_dma\stm32f4xx_hal.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_gpio.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_dma.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_tim_ex.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_flash_ramfunc.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_flash_ex.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_tim.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_rcc.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_dma_ex.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_cortex.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_flash.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_pwr.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_rcc_ex.o"
+"9_1tim_4ch_dma\stm32f4xx_hal_pwr_ex.o"
+"9_1tim_4ch_dma\startup_stm32f407xx.o"
+"9_1tim_4ch_dma\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "9_1TIM_4CH_DMA\9_1TIM_4CH_DMA.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "9_1TIM_4CH_DMA.map" -o 9_1TIM_4CH_DMA\9_1TIM_4CH_DMA.axf

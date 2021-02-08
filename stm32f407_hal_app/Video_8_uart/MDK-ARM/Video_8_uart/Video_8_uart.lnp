@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"video_8_uart\system_stm32f4xx.o"
+"video_8_uart\stm32f4xx_hal_gpio.o"
+"video_8_uart\stm32f4xx_hal_flash.o"
+"video_8_uart\stm32f4xx_hal_flash_ex.o"
+"video_8_uart\stm32f4xx_hal_dma.o"
+"video_8_uart\stm32f4xx_hal_cortex.o"
+"video_8_uart\stm32f4xx_hal.o"
+"video_8_uart\stm32f4xx_hal_pwr.o"
+"video_8_uart\stm32f4xx_hal_tim.o"
+"video_8_uart\stm32f4xx_hal_dma_ex.o"
+"video_8_uart\stm32f4xx_hal_tim_ex.o"
+"video_8_uart\stm32f4xx_hal_flash_ramfunc.o"
+"video_8_uart\stm32f4xx_hal_rcc.o"
+"video_8_uart\stm32f4xx_hal_pwr_ex.o"
+"video_8_uart\stm32f4xx_hal_rcc_ex.o"
+"video_8_uart\stm32f4xx_hal_uart.o"
+"video_8_uart\startup_stm32f407xx.o"
+"video_8_uart\main.o"
+"video_8_uart\stm32f4xx_it.o"
+"video_8_uart\stm32f4xx_hal_msp.o"
+--library_type=microlib --strict --scatter "Video_8_uart\Video_8_uart.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Video_8_uart.map" -o Video_8_uart\Video_8_uart.axf

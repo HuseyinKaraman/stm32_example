@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+"6_tim5_gated_mode\startup_stm32f407xx.o"
+"6_tim5_gated_mode\stm32f4xx_it.o"
+"6_tim5_gated_mode\main.o"
+"6_tim5_gated_mode\stm32f4xx_hal_msp.o"
+"6_tim5_gated_mode\system_stm32f4xx.o"
+"6_tim5_gated_mode\stm32f4xx_hal_tim_ex.o"
+"6_tim5_gated_mode\stm32f4xx_hal_flash_ramfunc.o"
+"6_tim5_gated_mode\stm32f4xx_hal_gpio.o"
+"6_tim5_gated_mode\stm32f4xx_hal_flash_ex.o"
+"6_tim5_gated_mode\stm32f4xx_hal_dma.o"
+"6_tim5_gated_mode\stm32f4xx_hal_pwr_ex.o"
+"6_tim5_gated_mode\stm32f4xx_hal_cortex.o"
+"6_tim5_gated_mode\stm32f4xx_hal_rcc.o"
+"6_tim5_gated_mode\stm32f4xx_hal_pwr.o"
+"6_tim5_gated_mode\stm32f4xx_hal.o"
+"6_tim5_gated_mode\stm32f4xx_hal_tim.o"
+"6_tim5_gated_mode\stm32f4xx_hal_rcc_ex.o"
+"6_tim5_gated_mode\stm32f4xx_hal_dma_ex.o"
+"6_tim5_gated_mode\stm32f4xx_hal_flash.o"
+--library_type=microlib --strict --scatter "6_tim5_gated_mode\6_tim5_gated_mode.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "6_tim5_gated_mode.map" -o 6_tim5_gated_mode\6_tim5_gated_mode.axf

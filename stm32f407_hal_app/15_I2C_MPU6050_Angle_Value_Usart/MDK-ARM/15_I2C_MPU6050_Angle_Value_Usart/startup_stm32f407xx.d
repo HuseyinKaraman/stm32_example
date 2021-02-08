@@ -1,0 +1,1 @@
+15_i2c_mpu6050_angle_value_usart\startup_stm32f407xx.o: startup_stm32f407xx.s

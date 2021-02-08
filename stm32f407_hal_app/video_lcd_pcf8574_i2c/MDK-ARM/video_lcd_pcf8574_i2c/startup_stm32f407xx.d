@@ -1,0 +1,1 @@
+video_lcd_pcf8574_i2c\startup_stm32f407xx.o: startup_stm32f407xx.s

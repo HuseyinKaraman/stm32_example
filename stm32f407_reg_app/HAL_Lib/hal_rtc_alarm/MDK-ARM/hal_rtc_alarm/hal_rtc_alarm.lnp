@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"hal_rtc_alarm\startup_stm32f407xx.o"
+"hal_rtc_alarm\main.o"
+"hal_rtc_alarm\stm32f4xx_it.o"
+"hal_rtc_alarm\stm32f4xx_hal_msp.o"
+"hal_rtc_alarm\stm32f4xx_hal_rtc.o"
+"hal_rtc_alarm\stm32f4xx_hal_rtc_ex.o"
+"hal_rtc_alarm\stm32f4xx_hal_tim.o"
+"hal_rtc_alarm\stm32f4xx_hal_tim_ex.o"
+"hal_rtc_alarm\stm32f4xx_hal_rcc.o"
+"hal_rtc_alarm\stm32f4xx_hal_rcc_ex.o"
+"hal_rtc_alarm\stm32f4xx_hal_flash.o"
+"hal_rtc_alarm\stm32f4xx_hal_flash_ex.o"
+"hal_rtc_alarm\stm32f4xx_hal_flash_ramfunc.o"
+"hal_rtc_alarm\stm32f4xx_hal_gpio.o"
+"hal_rtc_alarm\stm32f4xx_hal_dma_ex.o"
+"hal_rtc_alarm\stm32f4xx_hal_dma.o"
+"hal_rtc_alarm\stm32f4xx_hal_pwr.o"
+"hal_rtc_alarm\stm32f4xx_hal_pwr_ex.o"
+"hal_rtc_alarm\stm32f4xx_hal_cortex.o"
+"hal_rtc_alarm\stm32f4xx_hal.o"
+"hal_rtc_alarm\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "hal_rtc_alarm\hal_rtc_alarm.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "hal_rtc_alarm.map" -o hal_rtc_alarm\hal_rtc_alarm.axf

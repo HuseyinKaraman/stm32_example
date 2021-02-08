@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+"deneme_1\startup_stm32f407xx.o"
+"deneme_1\main.o"
+"deneme_1\stm32f4xx_it.o"
+"deneme_1\stm32f4xx_hal_msp.o"
+"deneme_1\stm32f4xx_hal_tim.o"
+"deneme_1\stm32f4xx_hal_tim_ex.o"
+"deneme_1\stm32f4xx_hal_rcc.o"
+"deneme_1\stm32f4xx_hal_rcc_ex.o"
+"deneme_1\stm32f4xx_hal_flash.o"
+"deneme_1\stm32f4xx_hal_flash_ex.o"
+"deneme_1\stm32f4xx_hal_flash_ramfunc.o"
+"deneme_1\stm32f4xx_hal_gpio.o"
+"deneme_1\stm32f4xx_hal_dma_ex.o"
+"deneme_1\stm32f4xx_hal_dma.o"
+"deneme_1\stm32f4xx_hal_pwr.o"
+"deneme_1\stm32f4xx_hal_pwr_ex.o"
+"deneme_1\stm32f4xx_hal_cortex.o"
+"deneme_1\stm32f4xx_hal.o"
+"deneme_1\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "deneme_1\deneme_1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "deneme_1.map" -o deneme_1\deneme_1.axf

@@ -1,0 +1,1 @@
+16_spi_lds3dsh_example\startup_stm32f407xx.o: startup_stm32f407xx.s

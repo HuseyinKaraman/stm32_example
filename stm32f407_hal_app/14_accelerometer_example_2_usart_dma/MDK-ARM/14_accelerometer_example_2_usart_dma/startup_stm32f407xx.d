@@ -1,0 +1,1 @@
+14_accelerometer_example_2_usart_dma\startup_stm32f407xx.o: startup_stm32f407xx.s

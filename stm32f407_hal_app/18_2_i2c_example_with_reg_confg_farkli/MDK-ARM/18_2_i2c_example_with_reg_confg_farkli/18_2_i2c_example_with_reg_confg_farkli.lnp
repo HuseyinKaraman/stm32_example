@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"18_2_i2c_example_with_reg_confg_farkli\startup_stm32f407xx.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_flash_ex.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_flash_ramfunc.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_i2c_ex.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_gpio.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_i2c.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_rcc_ex.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_cortex.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_dma_ex.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_flash.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_tim.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_rcc.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_dma.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_pwr_ex.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_tim_ex.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_pwr.o"
+"18_2_i2c_example_with_reg_confg_farkli\system_stm32f4xx.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_hal_msp.o"
+"18_2_i2c_example_with_reg_confg_farkli\main.o"
+"18_2_i2c_example_with_reg_confg_farkli\stm32f4xx_it.o"
+--library_type=microlib --strict --scatter "18_2_i2c_example_with_reg_confg_farkli\18_2_i2c_example_with_reg_confg_farkli.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "18_2_i2c_example_with_reg_confg_farkli.map" -o 18_2_i2c_example_with_reg_confg_farkli\18_2_i2c_example_with_reg_confg_farkli.axf

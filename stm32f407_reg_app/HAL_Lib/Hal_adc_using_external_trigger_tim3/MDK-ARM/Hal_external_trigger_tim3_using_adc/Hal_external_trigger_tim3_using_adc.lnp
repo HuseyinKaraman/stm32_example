@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"hal_external_trigger_tim3_using_adc\startup_stm32f407xx.o"
+"hal_external_trigger_tim3_using_adc\main.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_it.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_msp.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_adc.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_adc_ex.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_tim.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_tim_ex.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_rcc.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_rcc_ex.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_flash.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_flash_ex.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_flash_ramfunc.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_gpio.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_dma_ex.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_dma.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_pwr.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_pwr_ex.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal_cortex.o"
+"hal_external_trigger_tim3_using_adc\stm32f4xx_hal.o"
+"hal_external_trigger_tim3_using_adc\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Hal_external_trigger_tim3_using_adc\Hal_external_trigger_tim3_using_adc.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Hal_external_trigger_tim3_using_adc.map" -o Hal_external_trigger_tim3_using_adc\Hal_external_trigger_tim3_using_adc.axf

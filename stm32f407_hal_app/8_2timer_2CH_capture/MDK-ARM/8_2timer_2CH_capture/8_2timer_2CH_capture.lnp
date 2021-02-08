@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+"8_2timer_2ch_capture\stm32f4xx_hal_tim.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_cortex.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_flash.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_pwr.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_dma.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_tim_ex.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_flash_ex.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_rcc.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_pwr_ex.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_rcc_ex.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_flash_ramfunc.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_dma_ex.o"
+"8_2timer_2ch_capture\stm32f4xx_hal.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_gpio.o"
+"8_2timer_2ch_capture\system_stm32f4xx.o"
+"8_2timer_2ch_capture\startup_stm32f407xx.o"
+"8_2timer_2ch_capture\stm32f4xx_hal_msp.o"
+"8_2timer_2ch_capture\stm32f4xx_it.o"
+"8_2timer_2ch_capture\main.o"
+--library_type=microlib --strict --scatter "8_2timer_2CH_capture\8_2timer_2CH_capture.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "8_2timer_2CH_capture.map" -o 8_2timer_2CH_capture\8_2timer_2CH_capture.axf

@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"video_11_lcd\stm32f4xx_hal_cortex.o"
+"video_11_lcd\stm32f4xx_hal_pwr_ex.o"
+"video_11_lcd\stm32f4xx_hal.o"
+"video_11_lcd\stm32f4xx_hal_gpio.o"
+"video_11_lcd\stm32f4xx_hal_dma_ex.o"
+"video_11_lcd\stm32f4xx_hal_flash.o"
+"video_11_lcd\stm32f4xx_hal_tim.o"
+"video_11_lcd\stm32f4xx_hal_tim_ex.o"
+"video_11_lcd\stm32f4xx_hal_flash_ex.o"
+"video_11_lcd\stm32f4xx_hal_flash_ramfunc.o"
+"video_11_lcd\stm32f4xx_hal_rcc.o"
+"video_11_lcd\stm32f4xx_hal_rcc_ex.o"
+"video_11_lcd\stm32f4xx_hal_pwr.o"
+"video_11_lcd\stm32f4xx_hal_dma.o"
+"video_11_lcd\startup_stm32f407xx.o"
+"video_11_lcd\main.o"
+"video_11_lcd\stm32f4xx_it.o"
+"video_11_lcd\stm32f4xx_hal_msp.o"
+"video_11_lcd\stm_my_lcd16x2.o"
+"video_11_lcd\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "video_11_lcd\video_11_lcd.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "video_11_lcd.map" -o video_11_lcd\video_11_lcd.axf

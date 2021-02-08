@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"hal_rng_app\startup_stm32f407xx.o"
+"hal_rng_app\main.o"
+"hal_rng_app\stm32f4xx_it.o"
+"hal_rng_app\stm32f4xx_hal_msp.o"
+"hal_rng_app\stm32f4xx_hal_rng.o"
+"hal_rng_app\stm32f4xx_hal_tim.o"
+"hal_rng_app\stm32f4xx_hal_tim_ex.o"
+"hal_rng_app\stm32f4xx_hal_rcc.o"
+"hal_rng_app\stm32f4xx_hal_rcc_ex.o"
+"hal_rng_app\stm32f4xx_hal_flash.o"
+"hal_rng_app\stm32f4xx_hal_flash_ex.o"
+"hal_rng_app\stm32f4xx_hal_flash_ramfunc.o"
+"hal_rng_app\stm32f4xx_hal_gpio.o"
+"hal_rng_app\stm32f4xx_hal_dma_ex.o"
+"hal_rng_app\stm32f4xx_hal_dma.o"
+"hal_rng_app\stm32f4xx_hal_pwr.o"
+"hal_rng_app\stm32f4xx_hal_pwr_ex.o"
+"hal_rng_app\stm32f4xx_hal_cortex.o"
+"hal_rng_app\stm32f4xx_hal.o"
+"hal_rng_app\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Hal_Rng_app\Hal_Rng_app.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Hal_Rng_app.map" -o Hal_Rng_app\Hal_Rng_app.axf

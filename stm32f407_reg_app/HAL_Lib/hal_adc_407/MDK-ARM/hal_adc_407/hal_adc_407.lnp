@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"hal_adc_407\startup_stm32f407xx.o"
+"hal_adc_407\main.o"
+"hal_adc_407\stm32f4xx_it.o"
+"hal_adc_407\stm32f4xx_hal_msp.o"
+"hal_adc_407\stm32f4xx_hal_adc.o"
+"hal_adc_407\stm32f4xx_hal_adc_ex.o"
+"hal_adc_407\stm32f4xx_hal_tim.o"
+"hal_adc_407\stm32f4xx_hal_tim_ex.o"
+"hal_adc_407\stm32f4xx_hal_rcc.o"
+"hal_adc_407\stm32f4xx_hal_rcc_ex.o"
+"hal_adc_407\stm32f4xx_hal_flash.o"
+"hal_adc_407\stm32f4xx_hal_flash_ex.o"
+"hal_adc_407\stm32f4xx_hal_flash_ramfunc.o"
+"hal_adc_407\stm32f4xx_hal_gpio.o"
+"hal_adc_407\stm32f4xx_hal_dma_ex.o"
+"hal_adc_407\stm32f4xx_hal_dma.o"
+"hal_adc_407\stm32f4xx_hal_pwr.o"
+"hal_adc_407\stm32f4xx_hal_pwr_ex.o"
+"hal_adc_407\stm32f4xx_hal_cortex.o"
+"hal_adc_407\stm32f4xx_hal.o"
+"hal_adc_407\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "hal_adc_407\hal_adc_407.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "hal_adc_407.map" -o hal_adc_407\hal_adc_407.axf

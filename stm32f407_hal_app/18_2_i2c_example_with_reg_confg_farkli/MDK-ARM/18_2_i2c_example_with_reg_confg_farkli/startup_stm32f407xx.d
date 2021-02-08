@@ -1,0 +1,1 @@
+18_2_i2c_example_with_reg_confg_farkli\startup_stm32f407xx.o: startup_stm32f407xx.s

@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"hal_spi1\startup_stm32f407xx.o"
+"hal_spi1\main.o"
+"hal_spi1\stm32f4xx_it.o"
+"hal_spi1\stm32f4xx_hal_msp.o"
+"hal_spi1\stm32f4xx_hal_spi.o"
+"hal_spi1\stm32f4xx_hal_tim.o"
+"hal_spi1\stm32f4xx_hal_tim_ex.o"
+"hal_spi1\stm32f4xx_hal_rcc.o"
+"hal_spi1\stm32f4xx_hal_rcc_ex.o"
+"hal_spi1\stm32f4xx_hal_flash.o"
+"hal_spi1\stm32f4xx_hal_flash_ex.o"
+"hal_spi1\stm32f4xx_hal_flash_ramfunc.o"
+"hal_spi1\stm32f4xx_hal_gpio.o"
+"hal_spi1\stm32f4xx_hal_dma_ex.o"
+"hal_spi1\stm32f4xx_hal_dma.o"
+"hal_spi1\stm32f4xx_hal_pwr.o"
+"hal_spi1\stm32f4xx_hal_pwr_ex.o"
+"hal_spi1\stm32f4xx_hal_cortex.o"
+"hal_spi1\stm32f4xx_hal.o"
+"hal_spi1\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "HAL_SPI1\HAL_SPI1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "HAL_SPI1.map" -o HAL_SPI1\HAL_SPI1.axf

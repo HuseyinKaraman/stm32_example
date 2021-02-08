@@ -1,0 +1,1 @@
+hal_external_trigger_tim3_using_adc\startup_stm32f407xx.o: startup_stm32f407xx.s
